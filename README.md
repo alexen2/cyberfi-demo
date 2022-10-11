@@ -1,2 +1,2 @@
-# ui-library
-Library of simple ui react components
+# CyberFi. React UI Components (demo)
+React, TypeScript
