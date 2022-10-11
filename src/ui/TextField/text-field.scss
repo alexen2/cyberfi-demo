@@ -1,0 +1,44 @@
+.text-field {
+
+}
+.text-field__label {
+	padding-bottom: 4px;
+}
+.text-field__body {
+	height: 36px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 0 12px;
+
+	border: 4px;
+	background-color: var(--color-low-contrast-dark-secondary);
+	box-shadow: var(--material-surface-recess-dark-primary);
+}
+.text-field__body input {
+	flex-grow: 1;
+
+	color: var(--color-high-contrast-light-primary);
+
+	background: none;
+	border: none;
+}
+.text-field__body .icon {
+	display: block;
+	width: 18px;
+	height: 18px;
+
+	fill: var(--color-high-contrast-light-secondary);
+}
+.text-field__clear {
+	padding: 0;
+	margin: 0;
+
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+.text-field__footer {
+	min-height: 18px;
+	padding: 2px 4px 0 4px;
+}

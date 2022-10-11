@@ -1,0 +1,10 @@
+.progress-bar {
+	height: 2px;
+
+	background-color: var(--color-low-contrast-light-primary);
+}
+.progress-bar__value {
+	height: 2px;
+
+	background-color: var(--color-accent-primary);
+}

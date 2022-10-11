@@ -1,0 +1,36 @@
+.select {
+
+}
+.select__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+	height: 36px;
+	padding: 0 12px;
+
+	border-radius: 4px;
+	cursor: pointer;
+
+	transition: all 0.4s;
+}
+.select__header:hover {
+	background-color: var(--color-low-contrast-light-tertiary);
+
+	transition: all 0.4s;
+}
+.select__header-icon .icon {
+	display: block;
+	width: 18px;
+	height: 18px;
+
+	fill: var(--color-high-contrast-light-secondary);
+}
+.select__dropdown {
+	display: none;
+}
+
+.select--size-s .select__header {
+	height: 22px;
+	padding: 0 4px;
+}

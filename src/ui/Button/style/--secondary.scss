@@ -1,0 +1,21 @@
+.button--secondary {
+	color: var(--color-high-contrast-light-primary);
+
+	background: none;
+}
+.button--secondary:hover,
+.button--secondary:focus {
+	background-color: var(--color-low-contrast-light-secondary);
+}
+.button--secondary:active {	
+	background-color: var(--color-low-contrast-light-tertiary);
+}
+.button--secondary .icon {
+	fill: var(--color-high-contrast-light-secondary);
+}
+.button--secondary:disabled,
+.button--secondary[disabled],
+.button--secondary:disabled:hover,
+.button--secondary[disabled]:hover {
+	background: none;
+}

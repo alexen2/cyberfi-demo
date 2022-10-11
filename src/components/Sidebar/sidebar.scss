@@ -1,0 +1,48 @@
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+
+	background-color: var(--color-surfaces-material-dark-primary);
+}
+.sidebar__header {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 8px;
+
+	background-color: var(--color-surfaces-glass-dark-secondary);
+}
+.sidebar__body {
+	width: 100%;
+	height: calc(100vh - 40px);
+	padding: 4px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+
+	overflow-y: auto;
+}
+.sidebar__body > div {
+	width: 100%;
+}
+.sidebar__top {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	padding: 4px;
+
+	border-radius: 4px;
+	border: 1px solid var(--color-low-contrast-light-secondary);
+}
+.sidebar__top > div {
+	width: 100%;
+}
+.sidebar .sidebar-menu {
+	flex-grow: 1;
+}
+.sidebar__choose-network .select {
+	width: 100%;
+}

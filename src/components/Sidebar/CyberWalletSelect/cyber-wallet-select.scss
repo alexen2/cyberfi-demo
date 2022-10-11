@@ -1,0 +1,44 @@
+.cyber-wallet-select {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+	padding: 4px;
+
+	border-radius: 4px;
+	cursor: pointer;
+
+	transition: all 0.4s;
+}
+.cyber-wallet-select:hover {
+	background-color: var(--color-low-contrast-light-secondary);
+
+	transition: all 0.4s;
+}
+.cyber-wallet-select:active {
+	background-color: var(--color-low-contrast-light-tertiary);
+
+	transition: all 0.4s;
+}
+.cyber-wallet-select__value {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.cyber-wallet-select__value img {
+	display: block;
+	width: 22px;
+	height: 22px;
+}
+.cyber-wallet-select__actions {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.cyber-wallet-select--connected,
+.cyber-wallet-select--connected:hover,
+.cyber-wallet-select--connected:active {
+	border: 1px solid var(--color-accent-primary);
+	background-color: var(--color-low-contrast-light-tertiary);
+}

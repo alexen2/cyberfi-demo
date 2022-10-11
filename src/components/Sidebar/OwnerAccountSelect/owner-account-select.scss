@@ -1,0 +1,48 @@
+.owner-account-select {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	padding: 4px;
+	margin-bottom: 2px;
+
+	border-radius: 4px;
+	cursor: pointer;
+
+	transition: all 0.4s;
+}
+.owner-account-select > div {
+	width: 100%;
+	flex: 0 1 100%;
+}
+.owner-account-select:hover {
+	background-color: var(--color-low-contrast-light-secondary);
+
+	transition: all 0.4s;
+}
+.owner-account-select:active {
+	background-color: var(--color-low-contrast-light-tertiary);
+
+	transition: all 0.4s;
+}
+.owner-account-select__value {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.owner-account-select__value img {
+	display: block;
+	width: 22px;
+	height: 22px;
+}
+.owner-account-select__actions {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.owner-account-select--connected,
+.owner-account-select--connected:hover,
+.owner-account-select--connected:active {
+	border: 1px solid var(--color-accent-primary);
+	background-color: var(--color-low-contrast-light-tertiary);
+}

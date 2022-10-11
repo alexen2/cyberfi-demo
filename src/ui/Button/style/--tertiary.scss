@@ -1,0 +1,21 @@
+.button--tertiary {
+	color: var(--color-high-contrast-light-secondary);
+
+	background: none;
+}
+.button--tertiary:hover,
+.button--tertiary:focus {
+	background-color: var(--color-low-contrast-light-secondary);
+}
+.button--tertiary:active {	
+	background-color: var(--color-low-contrast-light-tertiary);
+}
+.button--tertiary .icon {
+	fill: var(--color-high-contrast-light-secondary);
+}
+.button--tertiary:disabled,
+.button--tertiary[disabled],
+.button--tertiary:disabled:hover,
+.button--tertiary[disabled]:hover {
+	background: none;
+}

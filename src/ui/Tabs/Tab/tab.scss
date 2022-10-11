@@ -1,0 +1,28 @@
+.tab {
+	position: relative;
+
+	padding: 8px 12px;
+
+	cursor: pointer;
+
+	transition: all 0.4s;
+}
+.tab:hover .typography,
+.tab--active .typography {
+	color: var(--color-high-contrast-light-primary);
+
+	transition: all 0.4s;
+}
+.tab--active::before {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+
+	display: block;
+	width: 100%;
+	height: 2px;
+
+	content: '';
+	border-radius: 2px;
+	background-color: var(--color-accent-primary);
+}

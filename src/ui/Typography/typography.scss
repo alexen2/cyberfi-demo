@@ -1,0 +1,44 @@
+.typography {
+	padding: 0;
+	margin: 0;
+
+	font-family: 'Industry';
+	font-weight: 500;
+}
+
+@import './style/h1.scss';
+@import './style/h2.scss';
+@import './style/h3.scss';
+@import './style/h4.scss';
+@import './style/h5.scss';
+@import './style/h6.scss';
+@import './style/lead.scss';
+@import './style/body.scss';
+@import './style/control.scss';
+@import './style/control-label.scss';
+@import './style/footnote.scss';
+@import './style/badge.scss';
+@import './style/disclaimer.scss';
+
+.uppercase {
+	text-transform: uppercase;
+}
+.underline {
+	text-decoration: underline;
+}
+.secondary {
+	color: var(--color-high-contrast-light-secondary);
+}
+
+.info {
+	color: var(--color-assistive-info-primary);
+}
+.success {
+	color: var(--color-assistive-success-primary);
+}
+.warning {
+	color: var(--color-assistive-warning-primary);
+}
+.error {
+	color: var(--color-assistive-error-primary);
+}

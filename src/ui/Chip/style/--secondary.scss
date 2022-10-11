@@ -1,0 +1,12 @@
+.chip--secondary {
+
+}
+.chip--active.chip--secondary {
+	background-color: var(--color-low-contrast-light-tertiary);
+	border: 1px solid var(--color-accent-primary);
+
+	color: var(--color-high-contrast-light-primary);
+}
+.chip--active.chip--secondary .icon {
+	fill: var(--color-high-contrast-light-secondary);
+}

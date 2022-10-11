@@ -1,0 +1,16 @@
+.top-trading-price {
+	display: flex;
+}
+.top-trading-price__item {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 8px;
+}
+.top-trading-price .icon {
+	display: block;
+	width: 18px;
+	height: 18px;
+
+	fill: var(--color-high-contrast-light-secondary);
+}

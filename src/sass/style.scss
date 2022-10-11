@@ -1,0 +1,29 @@
+@import './fonts.scss';
+@import './variables.scss';
+
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+body {
+	font-family: var(--typography-font-family-primary);
+	font-size: var(--body-font-font-size);
+	line-height: var(--body-font-line-height);
+	font-weight: var(--body-font-font-weight);
+	color: var(--color-low-contrast-light-primary);
+}
+.scrollbar {
+	scrollbar-width: thin;
+  scrollbar-color: var(--color-low-contrast-light-primary) transparent;
+}
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--color-low-contrast-light-primary);
+  border-radius: 3px;
+  border: 1px solid transparent;
+}

@@ -1,0 +1,15 @@
+.icon-text {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.icon-text .icon {
+	display: block;
+	width: 18px;
+	height: 18px;
+
+	fill: var(--color-high-contrast-light-secondary);
+}
+.icon-text--img .icon {
+	fill: inherit;
+}
